@@ -1,0 +1,27 @@
+.todosAgentes {
+  display: flex;
+}
+
+.imgAgente {
+  width: 300px;
+}
+.cardAgente{
+  margin: 0 auto;
+  width: 300px;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.agTitle, .agImg, .agAbilities {
+  display: flex;
+  justify-content: center;
+}
+
+.agAbilities {
+  margin-top: 20px;
+}
+
+.abilities {
+  width: 40px;
+  padding: 10px;
+}

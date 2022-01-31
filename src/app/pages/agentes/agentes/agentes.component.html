@@ -1,0 +1,50 @@
+<button (click)="show()">CLICK</button>
+
+<div class="todosAgentes">
+  <div class="cardAgente">
+    <div class="agTitle">
+      <h1>{{ agentes.data[0].displayName }}</h1>
+    </div>
+    <div class="agImg">
+      <img class="imgAgente" src="{{ agentes.data[0].fullPortrait }}" alt="">
+    </div>
+    <div class="agAbilities">
+      <img class="abilities" src="{{ agentes.data[0].abilities[0].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[0].abilities[1].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[0].abilities[2].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[0].abilities[3].displayIcon }}" alt="">
+    </div>
+  </div>
+
+  <div class="cardAgente">
+    <div class="agTitle">
+      <h1>{{ agentes.data[1].displayName }}</h1>
+    </div>
+    <div class="agImg">
+      <img class="imgAgente" src="{{ agentes.data[1].fullPortrait }}" alt="">
+    </div>
+    <div class="agAbilities">
+      <img class="abilities" src="{{ agentes.data[1].abilities[0].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[1].abilities[1].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[1].abilities[2].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[1].abilities[3].displayIcon }}" alt="">
+    </div>
+  </div>
+
+  <div class="cardAgente">
+    <div class="agTitle">
+      <h1>{{ agentes.data[2].displayName }}</h1>
+    </div>
+    <div class="agImg">
+      <img class="imgAgente" src="{{ agentes.data[2].fullPortrait }}" alt="">
+    </div>
+    <div class="agAbilities">
+      <img class="abilities" src="{{ agentes.data[2].abilities[0].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[2].abilities[1].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[2].abilities[2].displayIcon }}" alt="">
+      <img class="abilities" src="{{ agentes.data[2].abilities[3].displayIcon }}" alt="">
+    </div>
+  </div>
+</div>
+
+
